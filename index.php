@@ -6,6 +6,6 @@
 	</head>
 	<body>
 		<h1>Huw Tyler</h1>
-		<? echo getenv('MY_VAR'); ?>
+		<? /* echo getenv('MY_VAR'); */ ?>
 	</body>
 </html>
