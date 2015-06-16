@@ -9,6 +9,8 @@
 		<h2>This is a test</h2>
 		
 		<p>Testing branches</p>
+		
+		<? echo 'hello';?>
 	
 	</body>
 </html>
