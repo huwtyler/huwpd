@@ -5,12 +5,7 @@
 		<link rel="stylesheet" href="style.css" title="stylesheet" type="text/css" media="screen" charset="utf-8">
 	</head>
 	<body>
-		<h1>Hello world...</h1>
-		<h2>This is a test</h2>
-		
-		<p>Testing branches</p>
-		
-		<? echo 'hello';?>
+		<h1>Huw Tyler</h1>
 	
 	</body>
 </html>
