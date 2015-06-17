@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 50px;
 }
 table {
 	border-collapse: collapse;
@@ -43,4 +44,6 @@ body {
 h1 {
 	font-family: 'Flamenco', cursive;
 	color: #FFF;
+	font-weight: normal;
+	font-size: 24px;
 }
