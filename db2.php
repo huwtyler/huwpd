@@ -17,8 +17,10 @@ $result_obj = pg_fetch_object($result, 0);
 
 var_dump($result_obj);
 
+
+var_dump( $result_obj['title'] );
+
 /*
-echo $result_obj['title'];
 echo "<BR>";
 echo $result_obj['description'];
 echo "<BR>";
