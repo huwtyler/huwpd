@@ -15,19 +15,13 @@ $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
 $result_obj = pg_fetch_object($result, 0);
 
-var_dump($result_obj);
-
-echo "<br><br>x<br><br>";
-
-var_dump( $result_obj->title );
-
-/*
+echo $result_obj->title;
 echo "<BR>";
-echo $result_obj['description'];
+echo $result_obj->description;
 echo "<BR>";
-echo "Expires: ".$result_obj['expiry_date'];
+echo $result_obj->expiry_date;
 echo "<BR>";
-*/
+
 
 // Free resultset
 pg_free_result($result);
