@@ -13,7 +13,7 @@ $dbconn = pg_connect("host=$db dbname=$db_name user=$db_user password=$db_pass")
 $query = 'SELECT * FROM vouchers WHERE store_id = 0';
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
-var_dump($result);
+var_dump(pg_fetch_array($result, 0));
 
 // Free resultset
 pg_free_result($result);
