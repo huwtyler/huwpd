@@ -17,7 +17,7 @@ $result_obj = pg_fetch_object($result, 0);
 
 var_dump($result_obj);
 
-echo "<br>";
+echo "<br><br>x<br><br>";
 
 var_dump( $result_obj['title'] );
 
