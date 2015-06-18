@@ -19,7 +19,7 @@ var_dump($result_obj);
 
 echo "<br><br>x<br><br>";
 
-var_dump( $result_obj['title'] );
+var_dump( $result_obj->title );
 
 /*
 echo "<BR>";
