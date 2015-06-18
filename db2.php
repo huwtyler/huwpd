@@ -13,13 +13,13 @@ $dbconn = pg_connect("host=$db dbname=$db_name user=$db_user password=$db_pass")
 $query = 'SELECT * FROM vouchers WHERE store_id = 0';
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
-// var_dump(pg_fetch_object($result));
+$result_obj = pg_fetch_object($result, 0);
 
-echo $result['title'];
+echo $result_obj['title'];
 echo "<BR>";
-echo $result['description'];
+echo $result_obj['description'];
 echo "<BR>";
-echo "Expires: ".$result['expiry_date'];
+echo "Expires: ".$result_obj['expiry_date'];
 echo "<BR>";
 
 // Free resultset
